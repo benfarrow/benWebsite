@@ -1,0 +1,7 @@
+const teamCheck (teamInput) => {
+    if(teamInput = "watford"){
+        consoleLog("${teamInput} are literally the worst team right now")
+    }else {
+        consolelog(`to be fair anyteam is better than watford at the moment, ${teaminput} are above WATFORD)
+        
+    }

@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+    padding:10}
+
+
+body
+
+
+/* {
+    background-image:url("background.jpg");
+    background-size: 100%;
+    
+* }   */
+
+div { 
+
+    width: 1500px;
+    height: 10000px;
+    display: block;
+    position: relative;
+  }
+  
+  div::after {
+    content: "";
+    background:url(background.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  } 
+
+img{width:20%}
+h1{
+    color:red;
+}
+.lists{background-color: rgba(55, 113, 201, 0.2);
+}
+#bigTitle{font-size: 42px;}
