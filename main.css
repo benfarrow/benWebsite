@@ -1,17 +1,48 @@
+
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+
 *{
     box-sizing:border-box;
-    padding:10}
+    padding:10;
+    
+}
 
 
-body
+    
 
-
-/* {
+/* #background {
     background-image:url("background.jpg");
     background-size: 100%;
-    
-* }   */
-
+    opacity: 0.4;
+} */
 div { 
 
     width: 1500px;
@@ -19,18 +50,28 @@ div {
     display: block;
     position: relative;
   }
-  
-  div::after {
+
+ div::after {
     content: "";
-    background:url(background.jpg);
-    opacity: 0.5;
+    background:url("background.jpg");
+    opacity: 0.2;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
     z-index: -1;   
-  } 
+  }  
+
+  #image img {
+    height: auto; 
+    width: 20%; 
+
+}
+ 
+  
+
+
 
 img{width:20%}
 h1{
@@ -38,4 +79,11 @@ h1{
 }
 .lists{background-color: rgba(55, 113, 201, 0.2);
 }
-#bigTitle{font-size: 42px;}
+#bigTitle{
+    font-size: 42px;
+    opacity: 10;
+}
+
+
+/* git add . */
+/* git push */
