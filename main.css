@@ -41,8 +41,8 @@
     
 /* background formatting */
 
-#background
-/* div { 
+
+#background { 
 
     width: 1500px;
     height: 10000px;
@@ -50,37 +50,30 @@
     position: relative;
   }
 
- div::after {
+ #background::after {
     content: "";
     background:url("images/ background pics/background.jpg");
     opacity: 0.2;
-    top: 0;
+    top: 20px;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
-  }   */
+    z-index: -1;
 
-  /* background.backgroundFormatting{
-    background:url("images/ background pics/background.jpg");
-  } */
+  }  
 
- .classTest {
-    background-color: lightpink;
-    z-index: 2;
-    
-  }
-  /* .backgroundFormatting {
+  #backgroundUnitOne { 
+
     width: 1500px;
     height: 10000px;
     display: block;
     position: relative;
-  } */
+  }
 
- /* .backgroundFormatting::after {
+ #backgroundUnitOne::after {
     content: "";
-    background:url("images/ background pics/background.jpg");
+    background:url("images/ background pics/class.jpg");
     opacity: 0.2;
     top: 0;
     left: 0;
@@ -88,8 +81,68 @@
     right: 0;
     position: absolute;
     z-index: -1;   
-  }  */
+  }  
   
+  #backgroundUnitTwo { 
+
+    width: 1500px;
+    height: 10000px;
+    display: block;
+    position: relative;
+  }
+
+ #backgroundUnitTwo::after {
+    content: "";
+    background:url("images/ background pics/races.jpg");
+    opacity: 0.2;
+    top: 50px;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }  
+
+  #backgroundReferences { 
+
+    width: 1500px;
+    height: 10000px;
+    display: block;
+    position: relative;
+  }
+
+ #backgroundReferences::after {
+    content: "";
+    background:url("images/ background pics/schoolsofmagic.jpg");
+    opacity: 0.2;
+    top: 60px;
+    left: 50px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }  
+
+  #backgroundContact { 
+
+    width: 1500px;
+    height: 10000px;
+    display: block;
+    position: relative;
+  }
+
+ #backgroundContact::after {
+    content: "";
+    background:url("images/ background pics/charactercreation.png");
+    opacity: 0.2;
+    top: 150px;
+    left: 180px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }  
+
 /* headers formatting */
   
 h1{
