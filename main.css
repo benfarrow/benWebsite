@@ -6,6 +6,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
   }
   
   #navigationBar li {
@@ -38,13 +39,10 @@
 
 
     
+/* background formatting */
 
-/* #background {
-    background-image:url("background.jpg");
-    background-size: 100%;
-    opacity: 0.4;
-} */
-div { 
+#background
+/* div { 
 
     width: 1500px;
     height: 10000px;
@@ -54,7 +52,7 @@ div {
 
  div::after {
     content: "";
-    background:url("background.jpg");
+    background:url("images/ background pics/background.jpg");
     opacity: 0.2;
     top: 0;
     left: 0;
@@ -62,10 +60,37 @@ div {
     right: 0;
     position: absolute;
     z-index: -1;   
-  }  
+  }   */
 
+  /* background.backgroundFormatting{
+    background:url("images/ background pics/background.jpg");
+  } */
+
+ .classTest {
+    background-color: lightpink;
+    z-index: 2;
+    
+  }
+  /* .backgroundFormatting {
+    width: 1500px;
+    height: 10000px;
+    display: block;
+    position: relative;
+  } */
+
+ /* .backgroundFormatting::after {
+    content: "";
+    background:url("images/ background pics/background.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }  */
   
-
+/* headers formatting */
   
 h1{
     color:rgb(23, 21, 100);
@@ -109,6 +134,9 @@ li{
   font-family: Dungeon;
   font-size: 25px;
 }
+
+/* list formatting */
+
 .lists{background-color: rgba(55, 113, 201, 0.2);
       list-style-image: url("d20.png");
 }
