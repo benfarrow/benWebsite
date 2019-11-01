@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    /* background: url("deathwing.png"); */
     background-color: #333;
     
   }
@@ -16,7 +17,9 @@
   #navigationBar li a {
     display: block;
     color: white;
+    font-size: 150%;
     text-align: center;
+
     padding: 14px 16px;
     text-decoration: none;
     border-right: 3px solid rgb(165, 45, 45);
